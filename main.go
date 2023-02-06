@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"encoding/json"
-	"io/ioutil"
+
 	"net/http"
 	"os"
 	"os/exec"
@@ -62,7 +62,7 @@ func main() {
 }
 
 func tryLoadCurrentState() string {
-	bytes, err := ioutil.ReadFile(getConfigPath())
+	bytes, err := os.ReadFile(getConfigPath())
 
 	if err != nil {
 		println("Cannot read config file")
@@ -171,12 +171,4 @@ func getConfigPath() string {
 	}
 
 	return homeDir + "/." + ConfigFileName
-}
-
-func boolToStatus(boolStatus bool) int {
-	if boolStatus {
-		return IsOnAlert
-	} else {
-		return IsNotAlert
-	}
 }
