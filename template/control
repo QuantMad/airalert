@@ -1,0 +1,5 @@
+Package: airalert
+Description: An application for automatic notification of air raid alerts in accordance with the selected region of the country
+Maintainer: QuantMad
+Version: 1.0
+Section: stable

@@ -3,5 +3,4 @@
 /airalert_1.0-1_arm64/etc/systemd/system/airalertd.service
 /airalert_1.0-1_arm64/usr/local/bin/airalert/airalert
 /airalert_1.0-1_arm64/usr/local/bin/airalert/res
-/build.sh
 /builds
