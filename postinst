@@ -1,0 +1,6 @@
+#!/bin/bash
+
+systemctl enable airalertd.service
+systemctl daemon-reload
+ln /usr/local/bin/airalert/airalert /bin/airalert
+systemctl start airalertd.service

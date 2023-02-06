@@ -1,0 +1,7 @@
+Package: airalert
+Version: 1.0
+Maintainer: QuantMad
+Architecture: arm64
+Section: stable
+Depends: mpg123:arm64
+Description: An application for automatic notification of air raid alerts in accordance with the selected region of the country

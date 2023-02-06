@@ -1,0 +1,9 @@
+[Unit]
+Description=Air alert notification service
+
+[Service]
+ExecStart=/usr/local/bin/airalert/airalert
+User=root
+
+[Install]
+WantedBy=default.target

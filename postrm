@@ -1,0 +1,7 @@
+#!/bin/bash
+
+systemctl stop airalertd
+systemctl disable airalertd
+rm /etc/systemd/system/airalertd.service
+systemctl daemon-reload
+rm /bin/airalert

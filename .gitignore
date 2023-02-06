@@ -1,8 +1,7 @@
-/airalert_1.0-1_aarch64
-/airalert_1.0-1_amd64
-/airalert_1.0-1_armhf
+/airalert_1.0-1_arm64/DEBIAN/postinst
+/airalert_1.0-1_arm64/DEBIAN/postrm
+/airalert_1.0-1_arm64/etc/systemd/system/airalertd.service
+/airalert_1.0-1_arm64/usr/local/bin/airalert/airalert
+/airalert_1.0-1_arm64/usr/local/bin/airalert/res
 /build.sh
-/build_aarch64_deb.sh
-/build_amd64_deb.sh
-/build_armhf_deb.sh
 /builds
